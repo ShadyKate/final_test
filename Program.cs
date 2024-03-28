@@ -34,22 +34,3 @@ string [] array = arrayModification(strngsForModification, count);
 PrintArray(array);
 
 
-
-
-
-
-
-
-
-
-string [] newArray = new string [count];
-for(int i = 0; i < strngsForModification.Length; i++){
-    int j = 0;
-    if (strngsForModification[i].Length < 3 || strngsForModification[i].Length == 3){
-        newArray[j] = strngsForModification[i];
-        j++;
-    } 
-       
-}
-
-
